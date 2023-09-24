@@ -1,4 +1,3 @@
-<!-- <em>&copy; <?php echo date("Y") ?></em> -->
-<em>&copy; <?= esc($currentyear) ?></em>
+<em>&copy; <?php echo date("Y") ?></em>
 </body>
 </html>
