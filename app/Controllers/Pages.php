@@ -18,9 +18,10 @@ class Pages extends BaseController
         }
 
         $data['title'] = ucfirst($page);
+        $data2['currentyear'] = date("Y");
         return view('templates/header', $data)
             . view('pages/' . $page)
-            . view('templates/footer');
+            . view('templates/footer', $data2);
     }
 }
 
